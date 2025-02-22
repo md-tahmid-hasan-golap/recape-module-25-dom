@@ -38,7 +38,14 @@
     </footer>
 
     <script>
-
+    const heading = document.getElementsByTagName("h1");
+    for(let head of heading){
+        console.log(head.innerText)
+    }
+    const list = document.getElementsByTagName("li");
+   for(let li of list){
+    console.log(li.innerText)
+   }
     </script>
     <script src="js/dom.js"></script>
 </body>
